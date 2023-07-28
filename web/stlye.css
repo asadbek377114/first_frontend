@@ -1,0 +1,60 @@
+/* Formani yopiq qalin chiziq bilan chegaralash */
+form {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: 20px auto;
+	width: 500px;
+	background: rgb(255,150,2);
+background: linear-gradient(90deg, rgba(255,150,2,1) 1%,
+ rgba(252,170,70,1) 100%);
+}
+
+/* Label elementlari uchun stillar */
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+/* Input elementlari uchun stillar */
+input {
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+/* Select elementi uchun stillar */
+select {
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+/* Button elementi uchun stillar */
+button[type="submit"] {	
+  margin: 10 auto;
+	margin-left: 170px;
+	background-color: #a06705;
+	color: #fff;
+	padding: 20px 40px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+
+}
+#xabar {
+	height: 100px; 
+	resize: vertical; 
+	width: 500px;
+}
+h1 {
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
